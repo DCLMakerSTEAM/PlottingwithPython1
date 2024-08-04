@@ -1,0 +1,17 @@
+print("Hello world!")
+
+steps_walked = [8934, 14902, 3409, 25672, 12300, 2023, 6890]
+print("Steps I walked Sunday:")
+print(steps_walked[0])
+print("Steps I walked Monday:")
+print(steps_walked[1])
+print("Steps I walked Tuesday:")
+print(steps_walked[2])
+print("Steps I walked Wednesday:")
+print(steps_walked[3])
+print("Steps I walked Thursday:")
+print(steps_walked[4])
+print("Steps I walked Friday:")
+print(steps_walked[5])
+print("Steps I walked Saturday:")
+print(steps_walked[6])

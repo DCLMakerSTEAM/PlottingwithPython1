@@ -1,7 +1,8 @@
 # Data Visualization using Python
 
 ![Analysis of stolen paintings](./images/Stolen-Paintings.png)
-Analysis of stolen paintings. See it and more amazing visualizations at [visme](https://visme.co/blog/best-data-visualizations/).
+
+(See this and more amazing visualizations at [visme](https://visme.co/blog/best-data-visualizations/))
 
 ## Course scope
 

@@ -81,4 +81,4 @@ Pro tip: Always be polite to the AI. When our computer overlords take control yo
 It is as simple as that. Within the same conversation you can ask ChatGPT to make changes. For instance, try asking it:
 * Thank you for that program. Can you also have the program tell the user whether their number is odd or even?
 
-If you want a new program that does something else it is best to start a new conversation so that ChatGPT (and you) does not get confused about what you are asking for.
+If you want to work have ChatGPT write you a different program that does something else, it is best to start a new conversation so that ChatGPT (and you) do not get confused about what you are asking for.

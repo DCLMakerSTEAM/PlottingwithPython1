@@ -2,7 +2,7 @@ import pandas as pd
 import folium
 
 # Load the CSV data into a DataFrame
-data = pd.read_csv('path_to_your_file/squirrel-data.csv', encoding='ISO-8859-1')
+data = pd.read_csv('squirrel-data.csv', encoding='ISO-8859-1')
 
 # Calculate the average latitude and longitude for the initial map center
 average_lat = data['Squirrel Latitude (DD.DDDDDD)'].mean()
@@ -19,7 +19,7 @@ for _, row in data.iterrows():
     ).add_to(squirrel_map)
 
 # Save the map to an HTML file
-squirrel_map.save('squirrel_map_all.html')
+squirrel_map.save('squirrel_map.html')
 
 # Optionally, display the map in a Jupyter notebook
 # squirrel_map

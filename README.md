@@ -1,5 +1,13 @@
 # Data Visualization using Python
 
+## Course scope
+
+In this course you will learn to
+* Find a dataset
+* Ask ChatGPT to write code to visualize that dataset
+* Run that code on your computer
+* Make changes to the visualization to better show what you want
+
 ## Intro to Python
 
 Python is the most popular language for data visualization. It has a very rich set of tools and documentation.
@@ -17,13 +25,13 @@ Key things to understand:
   * Sometimes you don't want to do something for EVERY record
   * Do something ONLY if this condition is met
 
-See the [intro to Python](./intro) examples.
+See the [Python introduction](./pythonIntro).
 
 ## Visualization Module: Matplotlib for graphs
 
 Matplotlib makes graphs. There is a great [matplotlib tutorial](https://thepythoncodingbook.com/basics-of-data-visualisation-in-python-using-matplotlib/) about using matplotlib to create graphs. We are going to look at just a few of the examples. Feel free to go through the rest of it at your own pace if you want to learn more about matplotlib.
 
-See the [matplotlib](./matplotlib) examples.
+See the [matplotlib examples](./matplotlib).
 
 ![Matplotlib example graph](./images/matplotlib.png)
 
@@ -31,7 +39,7 @@ See the [matplotlib](./matplotlib) examples.
 
 [Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data onto a map. If you have a dataset with GPS coordinates for each record, Folium will put pins on the map for each record.
 
-See the Folium [squirrel sightings](./squirrels) examples.
+See the [Folium examples](./squirrels).
 
 ![Folium example map](./images/folium.png)
 
@@ -39,7 +47,7 @@ See the Folium [squirrel sightings](./squirrels) examples.
 
 [GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map (for instance, number of schools per county).
 
-See the GeoPandas [library total square footage by county](./publicLibraries) examples.
+See the [GeoPandas examples](./publicLibraries).
 
 ![GeoPandas example map](./images/geopandas.png)
 

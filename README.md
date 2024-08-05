@@ -49,12 +49,12 @@ Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)
 * [data.gov (Durham, NC)](https://catalog.data.gov/dataset/?tags=durham&page=1)
 * [NC State GIS datasets](https://www.lib.ncsu.edu/gis/datalist)
-* [NYC OpenData](https://opendata.cityofnewyork.us/)
 
 Various other datasets
 * [Fun datasets](https://www.springboard.com/blog/data-science/15-fun-datasets-to-analyze/)
 * [Beginner-friendly](https://www.kaggle.com/code/rtatman/fun-beginner-friendly-datasets)
 * [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
+* [NYC OpenData](https://opendata.cityofnewyork.us/)
 
 ## Scrubbing Data
 
@@ -64,7 +64,7 @@ Datasets are great. They have wonderful information in them. But, they may also 
 
 ## Dataset: NYC Park Squirrel Census
 
-NYC took an [informal census](https://www.thesquirrelcensus.com/) of squirrels in some of its parks. They have made the [Squirrel Data](https://www.dropbox.com/s/b97hxtsthbidl34/squirrel-data.csv?dl=0) available for [Download](https://www.dropbox.com/scl/fi/is2yaa5gz1of32xo1xwvd/squirrel-data.csv?rlkey=sao5wj2tqd98nzs6rsi5k7ot6&e=1&dl=1).
+NYC took an [informal census](https://www.thesquirrelcensus.com/) of squirrels in some of its parks. They have made this [squirrel dataset](https://www.dropbox.com/s/b97hxtsthbidl34/squirrel-data.csv?dl=0) available for [download](https://www.dropbox.com/scl/fi/is2yaa5gz1of32xo1xwvd/squirrel-data.csv?rlkey=sao5wj2tqd98nzs6rsi5k7ot6&e=1&dl=1).
 
 We do not know anything about this data, so let's just plot a few rows to see what we have.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map.

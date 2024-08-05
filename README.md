@@ -1,5 +1,8 @@
 # Data Visualization using Python
 
+![Analysis of stolen paintings](./images/Stolen-Paintings.png)
+Analysis of stolen paintings. See it and more amazing visualizations at [visme](https://visme.co/blog/best-data-visualizations/).
+
 ## Course scope
 
 In this course you will learn to
@@ -69,12 +72,12 @@ There are many AIs that you can use. Most of them will be able to write code for
 * Microsoft Copilot
 * etc.
 
-Go to [chatgpt.com](https://chatgpt.com) and create an account. You can use the free account. If you don't create an account you can ask the AI questions but it won't write code for you.
+Go to [chatgpt.com](https://chatgpt.com) and create an account. You can use the free account. If you don't create an account you can ask the AI questions, but it won't write code for you.
 
 Ask it to write you a program:
 * Hello! Please write me a Python program that will ask the user for their favorite number and then print that number
 
-Pro tip: Always be polite to the AI. When our computer overlords take control you want to be on their good side!
+Pro Tip: Always be polite to the AI. When our computer overlords take control you want to be on their good side!
 
 ![Python program to ask for a favorite number](./images/favoriteNumber.png)
 

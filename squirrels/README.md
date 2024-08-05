@@ -5,16 +5,42 @@ NYC took an [informal census](https://www.thesquirrelcensus.com/) of squirrels i
 We do not know anything about this data, so let's just plot a few rows to see what we have.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map.
 * Paste the header and the first 4 rows of sightings
-* Copy the code into your own map_1.py file
+* Copy the code into your own `map_1.first4rows.py` file
 * Run it
-  * python3 map_1.py
+  * python3 `map_1.first4rows.py`
 
 That worked great and is just what we want to visualize. Now let's look at the entire file. Since the file could be extremely large we don't want to paste it all into ChatGPT. Instead, we want ChatGPT to write us a program that will read directly from the CSV file.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map. I have a CSV file that I would like to read the data from.
-* Upload the CSV file
-* Copy the code into your own map_2.py file
+* Upload the CSV file (a smaller version with only a few lines)
+* Copy the code into your own `map_2.readfile.py` file
 * Run it!
-  * python3 map_2.py
+  * `python3 map_2.readfile.py`
 * Oops... it crashes :(
-* Fix it, run it, fix it, run it, ...
 
+Read the error message from the crash.
+
+```text
+FileNotFoundError: [Errno 2] No such file or directory: 'path_to_your_file/squirrel-data.csv'
+```
+
+The program needs you to update the path to the CSV file. Do that.
+* [ChatGPT](https://chatgpt.com/): My CSV file is in the same directory as the program. Can you update the program to read from the current directory?
+* Save it as `map_3.fixname.py` and run it
+  * `python3 map_3.fixname.py`
+* Oops... it crashes again :(
+
+Read the error message from the crash.
+
+```text
+ValueError: Location values cannot contain NaNs.
+```
+
+Google for: `python what is nan`
+
+NaN stands for 'Not a Number'. Look at the CSV file. Some of the records are missing the latitude or longitude values. Ask ChatGPT to add error handling.
+* [ChatGPT](https://chatgpt.com/): Some of the records in my CSV file are missing latitude or longitude. Can you update the program to handle missing location data?
+* Save it as `map_4.fixNaN.py` and run it
+  * `python3 map_4.fixNaN.py`
+* It worked!
+
+Zoom out until you can see the whole world. Note that there is a sighting over near India. What's that!? Look in the data file. One of the records 

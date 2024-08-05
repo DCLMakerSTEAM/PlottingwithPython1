@@ -73,7 +73,7 @@ There are many AIs that you can use. Most of them will be able to write code for
 * Microsoft Copilot
 * etc.
 
-Go to [chatgpt.com](https://chatgpt.com) and create an account. You can use the free account. If you don't create an account you can ask the AI questions, but it won't write code for you.
+Go to [chatgpt.com](https://chatgpt.com) and create an account. You can select the free account. If you don't create an account you can ask the AI questions, but it won't write code for you.
 
 Ask it to write you a program:
 * Hello! Please write me a Python program that will ask the user for their favorite number and then print that number
@@ -86,3 +86,9 @@ It is as simple as that. Within the same conversation you can ask ChatGPT to mak
 * Thank you for that program. Can you also have the program tell the user whether their number is odd or even?
 
 If you want to work have ChatGPT write you a different program that does something else, it is best to start a new conversation so that ChatGPT (and you) do not get confused about what you are asking for.
+
+Once you find a dataset you wish to visualize, ask ChatGPT to write that code. For instance, you could ask:
+* I have a dataset that has GPS coordinates. Can you write a program that will plot each of those records on a map?
+
+Or, maybe you have data about how much each department is spending.
+* I have a dataset of spending by department. Can you write a program to display that as a bubble chart? Make each bubble proportional to the size of the departmental spending.

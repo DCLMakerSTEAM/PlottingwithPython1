@@ -4,7 +4,7 @@
 
 Python is the most popular language for data visualization. It has a very rich set of tools and documentation.
 
-For this class you do not need to write any Python code. But, you may run into problems with the code. To solve the problems it will be useful to have a feel for what the code is doing.
+For this class you do not need to write any Python code. ChatGPT is going to write code for you. But, you may run into problems with the code. To solve the problems it will be useful to have a feel for what the code is doing.
 
 Key things to understand:
 * Variables
@@ -43,11 +43,7 @@ There are many other data visualization modules. Here are some [popular modules]
 
 ## Datasets
 
-Example datasets
-* Google: interesting data sets
-* [Fun datasets](https://www.springboard.com/blog/data-science/15-fun-datasets-to-analyze/)
-* [Beginner-friendly](https://www.kaggle.com/code/rtatman/fun-beginner-friendly-datasets)
-* [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
+To get started looking for datasets, Google: interesting data sets.
 
 Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)
@@ -55,11 +51,16 @@ Regional datasets
 * [NC State GIS datasets](https://www.lib.ncsu.edu/gis/datalist)
 * [NYC OpenData](https://opendata.cityofnewyork.us/)
 
+Various other datasets
+* [Fun datasets](https://www.springboard.com/blog/data-science/15-fun-datasets-to-analyze/)
+* [Beginner-friendly](https://www.kaggle.com/code/rtatman/fun-beginner-friendly-datasets)
+* [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
+
 ## Scrubbing Data
 
 Also called: cleaning, preprocessing.
-[Types of cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning) your data might need
-[Identifying missing data fields](https://github.com/ResidentMario/missingno)
+
+Datasets are great. They have wonderful information in them. But, they may also have some errors, blanks, or garbage. Before you can get a finished visualization of your data you may need to clean up the dataset. [Types of cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning) your data might need. If your data has gaps in it it can be useful to [identifying missing values](https://github.com/ResidentMario/missingno).
 
 ## Dataset: NYC Park Squirrel Census
 

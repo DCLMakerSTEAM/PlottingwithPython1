@@ -10,26 +10,13 @@ In this course you will learn to
 
 ## Intro to Python
 
-Python is the most popular language for data visualization. It has a very rich set of tools and documentation.
-
-For this class you do not need to write any Python code. ChatGPT is going to write code for you. But, you may run into problems with the code. To solve the problems it will be useful to have a feel for what the code is doing.
-
-Key things to understand:
-* Variables
-  * x = 4
-  * y = x+1
-  * What does y equal?
-* Loops
-  * Do something for every record in my data
-* Conditionals
-  * Sometimes you don't want to do something for EVERY record
-  * Do something ONLY if this condition is met
+Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To solve the problems it will be useful to have a feel for what the code is doing.
 
 See the [Python introduction](./pythonIntro).
 
 ## Visualization Module: Matplotlib for graphs
 
-Matplotlib makes graphs. There is a great [matplotlib tutorial](https://thepythoncodingbook.com/basics-of-data-visualisation-in-python-using-matplotlib/) about using matplotlib to create graphs. We are going to look at just a few of the examples. Feel free to go through the rest of it at your own pace if you want to learn more about matplotlib.
+[Matplotlib](https://matplotlib.org/) makes graphs. It is very good for numeric data.
 
 See the [matplotlib examples](./matplotlib).
 
@@ -37,7 +24,7 @@ See the [matplotlib examples](./matplotlib).
 
 ## Visualization Module: Folium for points on a map
 
-[Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data onto a map. If you have a dataset with GPS coordinates for each record, Folium will put pins on the map for each record.
+[Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data points onto a map. If you have a dataset with GPS coordinates for each record, Folium can put pins on the map for each record. For example, all sushi restaurants within 20 miles of RDU.
 
 See the [Folium examples](./squirrels).
 
@@ -45,7 +32,7 @@ See the [Folium examples](./squirrels).
 
 ## Visualization Module: GeoPandas for regions on a map
 
-[GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map (for instance, number of schools per county).
+[GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map. For instance, the number of public schools per county.
 
 See the [GeoPandas examples](./publicLibraries).
 
@@ -57,7 +44,7 @@ There are many other data visualization modules. Here are some [popular modules]
 
 ## Datasets
 
-To get started looking for datasets, Google: interesting data sets.
+To get started looking for datasets, Google for: interesting data sets.
 
 Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)
@@ -72,6 +59,25 @@ Various other datasets
 
 ## Scrubbing Data
 
-Also called: cleaning, preprocessing.
+Also called: cleaning or preprocessing. Datasets are great. They have wonderful information in them. But, they may also have some errors, blanks, or garbage. Before you can get a finished visualization of your data you may need to clean up the dataset. [Types of cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning) your data might need. If your data has gaps, it can be useful to [identifying missing values](https://github.com/ResidentMario/missingno).
 
-Datasets are great. They have wonderful information in them. But, they may also have some errors, blanks, or garbage. Before you can get a finished visualization of your data you may need to clean up the dataset. [Types of cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning) your data might need. If your data has gaps, it can be useful to [identifying missing values](https://github.com/ResidentMario/missingno).
+## Interacting with ChatGPT
+
+There are many AIs that you can use. Most of them will be able to write code for you.
+* Google Gemini
+* OpenAI ChatGPT
+* Microsoft Copilot
+* etc.
+
+Go to [chatgpt.com](https://chatgpt.com) and create an account. You can use the free account. If you don't create an account you can ask the AI questions but it won't write code for you.
+
+Ask it to write you a program:
+* Hello! Please write me a Python program that will ask the user for their favorite number and then print that number
+
+Pro tip: Always be polite to the AI. When our computer overlords take control you want to be on their good side!
+
+![Python program to ask for a favorite number](./images/favoriteNumber.png)
+
+It is as simple as that. Within the same conversation you can ask ChatGPT to make changes. For instance, try asking it, "Thank you for that program. Can you also have the program tell the user whether their number is odd or even?"
+
+If you want a new program that does something else it is best to start a new conversation so that ChatGPT (and you) does not get confused about what you are asking for.

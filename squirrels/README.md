@@ -56,3 +56,5 @@ Let's try ignoring any coordinates outside of NYC.
 * Save it as `map_5.limitcoords.py` and run it
   * `python3 map_5.limitcoords.py`
 * Did it work?
+
+What other changes would you make? Can you think of how to describe what you want to ChatGPT?

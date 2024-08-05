@@ -1,6 +1,9 @@
 # Python files to ignore
 venv/
 
+# Output files
+*.html
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

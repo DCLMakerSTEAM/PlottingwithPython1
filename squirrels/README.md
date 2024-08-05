@@ -9,9 +9,9 @@ We do not know anything about this data, so let's just plot a few rows to see wh
 * Run it
   * python3 `map_1.first4rows.py`
 
-That worked great and is just what we want to visualize. Now let's look at the entire file. Since the file could be extremely large we don't want to paste it all into ChatGPT. Instead, we want ChatGPT to write us a program that will read directly from the CSV file.
+That worked great and is just what we want to visualize. Now let's visualize the entire file. Since the file could be extremely large we want ChatGPT to write us a program that will read directly from the CSV file.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map. I have a CSV file that I would like to read the data from.
-* Upload the CSV file (a smaller version with only a few lines)
+* Upload the CSV file (or a smaller version with only a few lines)
 * Copy the code into your own `map_2.readfile.py` file
 * Run it!
   * `python3 map_2.readfile.py`
@@ -43,4 +43,16 @@ NaN stands for 'Not a Number'. Look at the CSV file. Some of the records are mis
   * `python3 map_4.fixNaN.py`
 * It worked!
 
-Zoom out until you can see the whole world. Note that there is a sighting over near India. What's that!? Look in the data file. One of the records 
+Zoom out until you can see the whole world. Note that there is a sighting over near India. What's that!? Look in the data file. One of the records has coordinates in Asia. How did that happen? Look at the CSV data and find that one of the negative signs is missing.
+
+How would you fix this error?
+* Is it an error? Maybe someone saw a squirrel there.
+* Edit the CSV file.
+* Have the program ignore any coordinates outside of the NYC area.
+* Other?
+
+Let's try ignoring any coordinates outside of NYC.
+* [ChatGPT](https://chatgpt.com/): This is working great. Thanks! Can you also ignore any coordinates that fall outside of the greater NYC area?
+* Save it as `map_5.limitcoords.py` and run it
+  * `python3 map_5.limitcoords.py`
+* Did it work?

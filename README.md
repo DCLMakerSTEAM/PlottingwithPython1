@@ -25,17 +25,23 @@ Matplotlib makes graphs. There is a great [matplotlib tutorial](https://thepytho
 
 See the [matplotlib](./matplotlib) examples.
 
+![Matplotlib example graph](./images/matplotlib.png)
+
 ## Visualization Module: Folium for points on a map
 
 [Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data onto a map. If you have a dataset with GPS coordinates for each record, Folium will put pins on the map for each record.
 
 See the Folium [squirrel sightings](./squirrels) examples.
 
-## Visualization Module: GeoPandas for counties/states on a map
+![Folium example map](./images/folium.png)
+
+## Visualization Module: GeoPandas for regions on a map
 
 [GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map (for instance, number of schools per county).
 
 See the GeoPandas [library total square footage by county](./publicLibraries) examples.
+
+![GeoPandas example map](./images/geopandas.png)
 
 ## Visualization Modules: further exploration
 

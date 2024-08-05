@@ -68,23 +68,34 @@ NYC took an [informal census](https://www.thesquirrelcensus.com/) of squirrels i
 
 We do not know anything about this data, so let's just plot a few rows to see what we have.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map.
-* Paste 4 rows and the header
+* Paste the header and the first 4 rows of sightings
 * Copy the code into your own map_1.py file
 * Run it
+  * python3 map_1.py
 
 That worked great and is just what we want to visualize. Now let's look at the entire file. Since the file could be extremely large we don't want to paste it all into ChatGPT. Instead, we want ChatGPT to write us a program that will read directly from the CSV file.
 * [ChatGPT](https://chatgpt.com/): Hello! I would like to graph some location data on a map. I have a CSV file that I would like to read the data from.
 * Upload the CSV file
 * Copy the code into your own map_2.py file
 * Run it!
+  * python3 map_2.py
 * Oops... it crashes :(
 * Fix it, run it, fix it, run it, ...
 
 ## Dataset: Public Library Survey
-* [Institute of Museum and Library Services](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey)
-* Download the [CSV](https://www.imls.gov/sites/default/files/2024-06/pls_fy2022_csv.zip) file
+
+The Institute of Museum and Library Services provides a dataset of [public libraries](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey).
+
+Download the [CSV](https://www.imls.gov/sites/default/files/2024-06/pls_fy2022_csv.zip) file and create a visualization showing the total square footage of library space in each US county.
 * [ChatGPT](https://chatgpt.com/): I have a dataset in a CSV file. I would like to plot it on a map, grouped by county. I want to run this on my own computer. Can you write the Python code for me?
 * Copy to map_1.py file
 * Run it
+  * python3 map_1.py
+* Note that it does not look right; it is not aggregating data by county
 * [ChatGPT](https://chatgpt.com/): My data has multiple rows for each county. Can you show me the code that would also sum those rows by county before plotting?
-* Update your code
+* Update your code and run it again
+* Note that some of the counties will be shaded in black. These are counties for which there is no data.
+  * Is it because the county has no library?
+  * Is it because the county name is misspelled?
+  * Or something else?
+  * Who knows! You have to go digging in the data to figure that out. Welcome to the wonderful world of using someone else's data. :)

@@ -30,7 +30,7 @@ There are many AIs that will write code for you.
 * Microsoft Copilot
 * etc.
 
-We will use ChatGPT. Go to [chatgpt.com](https://chatgpt.com). You do not need to create an account. If you don't create an account you can ask the AI questions, but it will be somewhat limited in what it can do for you. If you want more features (like uploading a dataset for ChatGPT to analyze it) you will need an account. The free account is fine.
+We will use ChatGPT. Go to [chatgpt.com](https://chatgpt.com). You do not need to create an account. If you don't create an account you can ask the AI questions, but it will be somewhat limited in what it can do for you. If you want more features (like uploading a dataset for ChatGPT to analyze) you will need an account. The free account is fine.
 
 Ask the AI to write a program for you:
 
@@ -100,7 +100,7 @@ There are many other data visualization modules. Here are some [popular modules]
 
 ## Datasets
 
-To get started looking for datasets, Google for: interesting data sets.
+To get started looking for datasets, Google for: `interesting data sets`
 
 Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)

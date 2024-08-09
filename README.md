@@ -16,13 +16,13 @@ In this course you will learn to
 
 Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To solve the problems it will be useful to have a feel for what the code is doing.
 
-See the [Python introduction](./pythonIntro).
+See the [Python introduction](./pythonIntro) to get a brief introduction to Python.
 
 ## Visualization Module: Matplotlib for graphs
 
 [Matplotlib](https://matplotlib.org/) makes graphs. It is very good for numeric data.
 
-See the [matplotlib examples](./matplotlib).
+See the [matplotlib examples](./matplotlib) to learn about using Matplotlib.
 
 ![Matplotlib example graph](./images/matplotlib.png)
 

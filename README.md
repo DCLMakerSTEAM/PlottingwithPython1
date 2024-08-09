@@ -12,13 +12,15 @@ In this course you will learn to
 
 ## Start here!
 
-To get started, follow the instructions to [set up your Windows environment](./windows).
+### Get set up to run Python programs
 
-## Intro to Python
+Follow these instructions to [set up your environment](./windows).
 
-Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To solve the problems it will be useful to have a basic feel for what the code is doing.
+### New to programming?
 
-See the [Python introduction](./pythonIntro) to get a brief introduction to Python.
+Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To ask ChatGPT to solve the problems for you it might be useful to have a basic feel for what code looks like.
+
+See the [Python introduction](./pythonIntro) to get a brief look at some of the basic tools in Python.
 
 ## Visualization Module: Matplotlib for graphs
 
@@ -75,9 +77,9 @@ There are many AIs that will write code for you.
 * Microsoft Copilot
 * etc.
 
-Go to [chatgpt.com](https://chatgpt.com) and create an account. You can select the free account. If you don't create an account you can ask the AI questions, but it will be more limited in what it can do for you.
+We are going to use ChatGPT. Go to [chatgpt.com](https://chatgpt.com). You do not need to create an account. If you don't create an account you can ask the AI questions, but it will be somewhat limited in what it can do for you. If you want more features (like uploading a dataset for ChatGPT to analyze it) you will need an account (the free account is fine).
 
-Ask it to write you a program:
+Ask the AI to write a program for you:
 
 ```text
 Hello! Please write me a Python program that will

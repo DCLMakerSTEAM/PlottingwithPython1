@@ -14,6 +14,15 @@ mkdir PythonClass
 cd PythonClass
 ```
 
+## Check your Python version
+
+When you write a new program you should use the latest version of Python. Python can tell you what version is installed. At the time of this writing that is 3.12.4. Do you have the latest version installed?
+
+Switch to Powershell
+```shell
+python --version
+```
+
 ## Set up Windows Explorer
 
 Windows Explorer (the file explorer; not IE which was the Internet Explorer) lets us see and manage files on our computer. We will use it along with the commandline to manage the files we are creating.

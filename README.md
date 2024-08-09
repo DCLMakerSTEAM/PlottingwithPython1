@@ -6,7 +6,7 @@
 
 In this course you will learn to
 * Find a dataset
-* Ask ChatGPT to write code to visualize that dataset
+* Ask an AI to write code to visualize that dataset
 * Run that code on your computer
 * Make changes to the visualization to better show what you want
 
@@ -14,7 +14,7 @@ In this course you will learn to
 
 ### Get set up to run Python programs
 
-Follow these instructions to [set up your environment](./windows).
+Follow these instructions to [set up and verify your environment](./windows).
 
 ### New to programming?
 
@@ -70,7 +70,7 @@ bubble chart? Make each bubble proportional
 to the size of the departmental spending.
 ```
 
-## Visualization Module: Matplotlib for graphs
+## Visualization: Numeric graphs
 
 [Matplotlib](https://matplotlib.org/) makes graphs. It is very good for numeric data.
 
@@ -78,7 +78,7 @@ See the [matplotlib examples](./matplotlib) to learn about using Matplotlib.
 
 ![Matplotlib example graph](./images/matplotlib.png)
 
-## Visualization Module: Folium for points on a map
+## Visualization: Plotting points on a map
 
 [Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data points onto a map. If you have a dataset with GPS coordinates for each record, Folium can put pins on the map for each record. For example, all sushi restaurants within 20 miles of RDU.
 
@@ -86,7 +86,7 @@ See the [Folium examples](./squirrels).
 
 ![Folium example map](./images/folium.png)
 
-## Visualization Module: GeoPandas for regions on a map
+## Visualization: Shading regions on a map
 
 [GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map. For instance, the number of public schools per county.
 
@@ -94,7 +94,7 @@ See the [GeoPandas examples](./publicLibraries).
 
 ![GeoPandas example map](./images/geopandas.png)
 
-## Visualization Modules: further exploration
+## Visualization: Further exploration
 
 There are many other data visualization modules. Here are some [popular modules](https://mode.com/blog/python-data-visualization-libraries).
 

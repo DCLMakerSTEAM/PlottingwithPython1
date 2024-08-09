@@ -4,17 +4,19 @@
 
 (See this and more amazing visualizations at [visme](https://visme.co/blog/best-data-visualizations/))
 
-## Course scope
-
 In this course you will learn to
 * Find a dataset
 * Ask ChatGPT to write code to visualize that dataset
 * Run that code on your computer
 * Make changes to the visualization to better show what you want
 
+## Start here!
+
+To get started, follow the instructions to [set up your Windows environment](./windows).
+
 ## Intro to Python
 
-Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To solve the problems it will be useful to have a feel for what the code is doing.
+Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To solve the problems it will be useful to have a basic feel for what the code is doing.
 
 See the [Python introduction](./pythonIntro) to get a brief introduction to Python.
 
@@ -65,30 +67,50 @@ Various other datasets
 
 Also called: cleaning or preprocessing. Datasets are great. They have wonderful information in them. But, they may also have some errors, blanks, or garbage. Before you can get a finished visualization of your data you may need to clean up the dataset. [Types of cleaning](https://www.tableau.com/learn/articles/what-is-data-cleaning) your data might need. If your data has gaps, it can be useful to [identifying missing values](https://github.com/ResidentMario/missingno).
 
-## Interacting with ChatGPT
+## Using an AI to write code
 
-There are many AIs that you can use. Most of them will be able to write code for you.
+There are many AIs that will write code for you.
 * Google Gemini
 * OpenAI ChatGPT
 * Microsoft Copilot
 * etc.
 
-Go to [chatgpt.com](https://chatgpt.com) and create an account. You can select the free account. If you don't create an account you can ask the AI questions, but it won't write code for you.
+Go to [chatgpt.com](https://chatgpt.com) and create an account. You can select the free account. If you don't create an account you can ask the AI questions, but it will be more limited in what it can do for you.
 
 Ask it to write you a program:
-* Hello! Please write me a Python program that will ask the user for their favorite number and then print that number
+
+```text
+Hello! Please write me a Python program that will
+ask the user for their favorite number and then
+print that number.
+```
 
 Pro Tip: Always be polite to the AI. When our computer overlords take control you want to be on their good side!
 
 ![Python program to ask for a favorite number](./images/favoriteNumber.png)
 
 It is as simple as that. Within the same conversation you can ask ChatGPT to make changes. For instance, try asking it:
-* Thank you for that program. Can you also have the program tell the user whether their number is odd or even?
+
+```text
+Thank you for that program. Can you also have the program
+tell the user whether their number is odd or even?`
+```
 
 If you want to work have ChatGPT write you a different program that does something else, it is best to start a new conversation so that ChatGPT (and you) do not get confused about what you are asking for.
 
 Once you find a dataset you wish to visualize, ask ChatGPT to write that code. For instance, you could ask:
-* I have a dataset that has GPS coordinates. Can you write a program that will plot each of those records on a map?
+
+```text
+I have a dataset that has GPS coordinates.
+Can you write a program that will plot each
+of those records on a map?
+```
 
 Or, maybe you have data about how much each department is spending.
-* I have a dataset of spending by department. Can you write a program to display that as a bubble chart? Make each bubble proportional to the size of the departmental spending.
+
+```text
+I have a dataset of spending by department.
+Can you write a program to display that as a
+bubble chart? Make each bubble proportional
+to the size of the departmental spending.
+```

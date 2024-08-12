@@ -12,15 +12,9 @@ In this course you will learn to
 
 ## Start here!
 
-### Get set up to run Python programs
+[Set up your Windows environment](./windows).
 
-Follow these instructions to [set up and verify your environment](./windows).
-
-### New to programming?
-
-Python is the most popular language for data visualization. It has a very rich set of tools and documentation. For this class you do not need to write any Python code. ChatGPT will write code for you. But, you may run into problems. To ask ChatGPT to solve the problems for you it might be useful to have a basic feel for what code looks like.
-
-See the [Python introduction](./pythonIntro) to get a brief look at some of the basic tools in Python.
+New to Python? See the [Python introduction](./pythonIntro) for a brief look at the Python language.
 
 ## Using an AI to write code
 

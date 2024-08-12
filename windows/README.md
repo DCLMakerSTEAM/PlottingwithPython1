@@ -57,9 +57,11 @@ Switch to Powershell
 The best practice is to run Python programs in a virtual environment. The details of why that matters are beyond this class. If you are curious, you can read more about virtual environments and why they are necessary in the [RealPython primer](https://realpython.com/python-virtual-environments-a-primer/).
 
 Switch to Powershell
-* `python -m venv venv`
-* `.\venv\Scripts\activate`
-* Note that your prompt now begins with `(venv)`
+```shell
+python -m venv venv
+.\venv\Scripts\activate
+```
+Note that your prompt now begins with `(venv)`
 
 ## Start the Class
 

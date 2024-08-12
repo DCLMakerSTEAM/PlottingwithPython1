@@ -1,8 +1,8 @@
 # Data Visualization using Python
 
-![Analysis of stolen paintings](./images/Stolen-Paintings.png)
+![Sample Plots](./images/samplePlots.png)
 
-(See this and more amazing visualizations at [visme](https://visme.co/blog/best-data-visualizations/))
+(See this and more amazing visualizations at [datawrapper.de](https://blog.datawrapper.de/))
 
 In this course you will learn to
 * Find a dataset

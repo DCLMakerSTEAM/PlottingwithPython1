@@ -88,6 +88,10 @@ See the [GeoPandas examples](./publicLibraries).
 
 ![GeoPandas example map](./images/geopandas.png)
 
+## Visualization: Missing data
+
+Quite often some data is missing. [seaborn](https://seaborn.pydata.org/) can--among many, many other things--help visualize where data is missing. See the [missing data example](./missing).
+
 ## Visualization: Further exploration
 
 There are many other data visualization modules. Here are some [popular modules](https://mode.com/blog/python-data-visualization-libraries).

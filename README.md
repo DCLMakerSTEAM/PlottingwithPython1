@@ -90,7 +90,11 @@ See the [GeoPandas examples](./publicLibraries).
 
 ## Visualization: Missing data
 
-Quite often some data is missing. [seaborn](https://seaborn.pydata.org/) can--among many, many other things--help visualize where data is missing. See the [seaborn examples](./missing).
+Quite often some data is missing. [seaborn](https://seaborn.pydata.org/) can--among many, many other things--help visualize where data is missing.
+
+See the [seaborn examples](./missing).
+
+![seaborn heat map](./images/seabornHeatmap.png)
 
 ## Visualization: Further exploration
 

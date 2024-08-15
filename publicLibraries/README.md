@@ -8,21 +8,55 @@ grouped by county. I want to run this on my own computer.
 Can you write the Python code for me?
 ```
 
-Give the AI a few lines of your file so it knows what the column headers are and what some representative values are.
+The AI will likely just go ahead and write an example program. Since we want the AI to do all of the coding, we need to give it more information. Give the AI a few lines of your file so it knows what the column headers are and what some representative values are.
 
 ```text
 May I give you the first few lines of my data file?
 ```
 
+The AI went ahead and wrote the program, ran it, generated the output, and gave the output to me to download. While that was very generous, we want to get the actual code. Also, the output it generated wasn't exactly what we were looking for. We should give it more information.
+
+```text
+Can you aggregate square footage data by county and then
+display each county on a map?
+Also, instead of running it yourself can you give me the code
+so I can run it on my computer?
+```
+
+Note that the code it generates wants you to fill in your file name. Tell the AI your local file name so that you don't have to keep making this change any time you ask for a new version of the program.
+
+```text
+My local CSV file is called imls/pls_fy22_outlet_pud22i.csv
+```
+
+Download this program and run it. It will fail with a `UnicodeDecodeError` message. Paste the entire message into the AI. The AI will update the program for you. Download and run it.
+
+This time the program will generate the map. Yay! You will get a warning, but if you paste that warning into the AI it will tell you it can be ignored.
+
+The map that the AI generated looks like it is probably correct, but it does not tell us much. To see each county we would need to click on its pin. We really want to shade in each county with a color that represents the square footage in relation to other counties.
+
+```text
+Thank you for that map. It worked fine. Instead of putting pins on the map, could
+you shade in the county with a color that represents how much square footage there
+is relative to other counties?
+```
+
+
+
+
+
 Follow the instructions to download the shapes file. You will need this so the program knows where to draw the boundaries for each county.
 
+Once you have the shapes file downloaded, ask the AI to generate the code. Save that code and run it.
 
-* Copy to map_1.py file
-* Run it
-  * python3 map_1.py
-* Note that it does not look right; it is not aggregating data by county
-* [ChatGPT](https://chatgpt.com/): My data has multiple rows for each county. Can you show me the code that would also sum those rows by county before plotting?
-* Update your code and run it again
+Note that the output does not look right; it is not aggregating data by county. Ask ChatGPT to fix that for you.
+
+```text
+My data has multiple rows for each county. Can you show me the code
+that would also sum those rows by county before plotting?
+```
+
+Update your code and run it again
 
 Note that some of the counties will be shaded in black. These are counties for which there is no data.
 * Is it because the county has no library?

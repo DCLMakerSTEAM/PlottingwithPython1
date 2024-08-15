@@ -60,7 +60,7 @@ There are many other data visualization modules. Here are some [popular modules]
 
 ## Datasets
 
-There is a vast world of data out there. Available for free. To get started looking for datasets, Google for: `interesting data sets`
+There is a vast world of data out there. Available for free. To get started looking for datasets, try Googling for: `interesting data sets` or just ask an AI to help you find some.
 
 Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)

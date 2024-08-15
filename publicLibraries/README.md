@@ -8,7 +8,9 @@ grouped by county. I want to run this on my own computer.
 Can you write the Python code for me?
 ```
 
-The AI will likely just go ahead and write an example program. Since we want the AI to do all of the coding, we need to give it more information. Give the AI a few lines of your file so it knows what the column headers are and what some representative values are.
+The AI will likely just go ahead and write an example program with instructions for us to finish it. We want the AI to do all of the coding, so we need to give it more information.
+
+One of the key things missing is that the AI does not know what our data looks like. Give the AI a few lines of your file so it knows what the column headers are and what some representative values are. Often we do not want to upload the entire file. Maybe it is very large of maybe it has sensitive data in it. Upload just the first few lines or even only just the first line (the column names).
 
 ```text
 May I give you the first few lines of my data file?

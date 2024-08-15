@@ -12,15 +12,17 @@ In this course you will learn to
 
 ## Start here!
 
-[Set up your Windows environment](./windows).
+Set up your [Windows](./windows) environment.
 
-New to Python? See the [Python introduction](./pythonIntro) for a brief look at the Python language.
+New to Python? See the [Python introduction](./pythonIntro) for a brief look at the language the AIs write code in.
 
 ## Using an AI to write code
 
-AIs have reached the level where they can write code for you. Take a look at an [example conversation](./examples) asking an AI to write code.
+You do not need to write any code. AIs have reached the level where they can write code for you. Take a look at an [example conversation](./examples) asking an AI to write code.
 
-## Visualization: Numeric graphs
+## Visualizatoins
+
+### Numeric graphs
 
 [Matplotlib](https://matplotlib.org/) makes graphs. It is very good for numeric data.
 
@@ -28,7 +30,7 @@ See the [matplotlib examples](./matplotlib) to learn about using Matplotlib.
 
 ![Matplotlib example graph](./images/matplotlib.png)
 
-## Visualization: Plotting points on a map
+### Coordinate points on a map
 
 [Folium](https://python-visualization.github.io/folium/latest/#) makes it easy to put spatial data points onto a map. If you have a dataset with GPS coordinates for each record, Folium can put pins on the map for each record. For example, all sushi restaurants within 20 miles of RDU.
 
@@ -36,7 +38,7 @@ See the [Folium examples](./squirrels).
 
 ![Folium example map](./images/folium.png)
 
-## Visualization: Shading regions on a map
+### Shade regions on a map
 
 [GeoPandas](https://geopandas.org/en/stable/) makes it easy to plot spatially-aggregated data on a map. For instance, the number of public schools per county.
 
@@ -44,7 +46,7 @@ See the [GeoPandas examples](./publicLibraries).
 
 ![GeoPandas example map](./images/geopandas.png)
 
-## Visualization: Missing data
+### Identify missing data
 
 Quite often some data is missing. [seaborn](https://seaborn.pydata.org/) can--among many, many other things--help visualize where data is missing.
 
@@ -52,7 +54,7 @@ See the [seaborn examples](./missing).
 
 ![seaborn heat map](./images/seabornHeatmap.png)
 
-## Visualization: Further exploration
+### Further exploration
 
 There are many other data visualization modules. Here are some [popular modules](https://mode.com/blog/python-data-visualization-libraries).
 

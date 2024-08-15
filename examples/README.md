@@ -39,8 +39,6 @@ Can you write a program that will plot each
 of those records on a map?
 ```
 
-## A more intricate request
-
 Maybe you have data about how much each department is spending.
 
 ```text

@@ -18,7 +18,7 @@ New to Python? See the [Python introduction](./pythonIntro) for a brief look at 
 
 ## Using an AI to write code
 
-Take a look at an [example conversation](./examples) asking an AI to write code for us.
+AIs have reached the level where they can write code for you. Take a look at an [example conversation](./examples) asking an AI to write code.
 
 ## Visualization: Numeric graphs
 

@@ -29,9 +29,11 @@ Thank you for that program. Can you also have the program
 tell the user whether their number is odd or even?`
 ```
 
-If you want the AI to write you a different program that does something else, it is best to start a new conversation so that the AI (and you) do not get confused about what you are asking for.
+Pro Tip: If you want the AI to write you a different program that does something else, it is best to start a new conversation so that the AI (and you) do not get confused about what you are asking for.
 
-Once you find a dataset you wish to visualize, ask ChatGPT to write that code. For instance, you could ask:
+## AIs can create visualizations
+
+Once you find a dataset you wish to visualize, ask ChatGPT to write the code to do that. For instance, you could ask:
 
 ```text
 I have a dataset that has GPS coordinates.
@@ -39,7 +41,7 @@ Can you write a program that will plot each
 of those records on a map?
 ```
 
-Maybe you have data about how much each department is spending.
+Maybe you have data about how much each department is spending. You want to highlight how different the range of spending is across the different departments. Bubble charts can be useful for this.
 
 ```text
 I have a dataset of spending by department.

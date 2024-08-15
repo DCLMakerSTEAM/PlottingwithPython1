@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('department_spending.csv')
+df = pd.read_csv('spending.csv')
 
 # Ensure the Spending column is numeric
 df['Spending'] = pd.to_numeric(df['Spending'], errors='coerce')

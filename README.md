@@ -20,7 +20,7 @@ New to Python? See the [Python introduction](./pythonIntro) for a brief look at 
 
 You do not need to write any code. AIs have reached the level where they can write code for you. Take a look at an [example conversation](./examples) asking an AI to write code.
 
-## Visualizatoins
+## Visualizations
 
 ### Numeric graphs
 
@@ -60,7 +60,7 @@ There are many other data visualization modules. Here are some [popular modules]
 
 ## Datasets
 
-To get started looking for datasets, Google for: `interesting data sets`
+There is a vast world of data out there. Available for free. To get started looking for datasets, Google for: `interesting data sets`
 
 Regional datasets
 * [Durham OpenData](https://live-durhamnc.opendata.arcgis.com/)

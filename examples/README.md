@@ -20,7 +20,7 @@ print that number.
 
 Pro Tip: Always be polite to the AI. When our computer overlords take control you want to be on their good side!
 
-![Python program to ask for a favorite number](./images/favoriteNumber.png)
+![Python program to ask for a favorite number](../images/favoriteNumber.png)
 
 It is as simple as that. Within the same conversation you can ask the AI to make changes. For instance, try asking it:
 

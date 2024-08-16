@@ -43,22 +43,9 @@ you shade in the county with a color that represents how much square footage the
 is relative to other counties?
 ```
 
-
-
-
-
-Follow the instructions to download the shapes file. You will need this so the program knows where to draw the boundaries for each county.
+Follow the instructions to download the [GeoJSON](https://geojson.org/) shapes file. This tells the program where to draw the boundaries for each county.
 
 Once you have the shapes file downloaded, ask the AI to generate the code. Save that code and run it.
-
-Note that the output does not look right; it is not aggregating data by county. Ask ChatGPT to fix that for you.
-
-```text
-My data has multiple rows for each county. Can you show me the code
-that would also sum those rows by county before plotting?
-```
-
-Update your code and run it again
 
 Note that some of the counties will be shaded in black. These are counties for which there is no data.
 * Is it because the county has no library?

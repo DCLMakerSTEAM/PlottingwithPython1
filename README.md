@@ -54,6 +54,14 @@ See the [seaborn examples](./missing).
 
 ![seaborn heat map](./images/seabornHeatmap.png)
 
+### Real-Time data
+
+Sometimes data is not static. Dynamic data includes stock prices, current weather, airplane position tracking, and many other real-time data sources.
+
+See the [real-time examples](./realtime).
+
+![real-time waveform](./images/realtimeWaveform.png)
+
 ### Further exploration
 
 There are many other data visualization modules. Here are some [popular modules](https://mode.com/blog/python-data-visualization-libraries).
